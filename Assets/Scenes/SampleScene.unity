@@ -1782,7 +1782,6 @@ RectTransform:
   - {fileID: 476642409}
   - {fileID: 815273835}
   - {fileID: 1937112202}
-  - {fileID: 1034266417}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -4876,7 +4875,7 @@ RectTransform:
   m_LocalScale: {x: 0.36928248, y: 0.36928248, z: 0.36928248}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 403399368}
+  m_Father: {fileID: 1526248571}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -4926,7 +4925,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1034266419}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1526248570}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1034266419
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5304,7 +5315,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1110063623
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5779,7 +5790,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fda3dab247eb2a745a107339a5b6d40a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ed09261713a2bc94bb536ceb08d9a62c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7016,7 +7027,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1502506529}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1526248570}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1110063622}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1502506529
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7267,7 +7302,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1526248571
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7285,6 +7320,7 @@ RectTransform:
   - {fileID: 1547972843}
   - {fileID: 985774336}
   - {fileID: 562277717}
+  - {fileID: 1034266417}
   m_Father: {fileID: 1937112202}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -8399,7 +8435,7 @@ RectTransform:
   m_GameObject: {fileID: 1811250653}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.9010277, y: 2.9010277, z: 2.9010277}
+  m_LocalScale: {x: 3.285704, y: 3.285704, z: 3.285704}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1754202600}
@@ -8429,7 +8465,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9e5ba289e9b2cdd47aa33eb1374787c1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d011fdd9286c3a648ac098e5f02e30eb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8996,7 +9032,7 @@ RectTransform:
   m_GameObject: {fileID: 1974136707}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.1823123, y: 3.1823123, z: 3.1823123}
+  m_LocalScale: {x: 2.7604012, y: 2.7604012, z: 2.7604012}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 985774336}
@@ -9026,7 +9062,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fda3dab247eb2a745a107339a5b6d40a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 94e4adb8add843d4c9cd1cf96dac8327, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
