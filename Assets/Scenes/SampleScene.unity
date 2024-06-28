@@ -1112,11 +1112,12 @@ RectTransform:
   - {fileID: 1937992113}
   - {fileID: 867953737}
   - {fileID: 589658281}
+  - {fileID: 707482180}
   m_Father: {fileID: 745854187}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 337.95105, y: 0}
+  m_AnchoredPosition: {x: 337.95105, y: 245}
   m_SizeDelta: {x: 633.8361, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &136789623
@@ -1134,10 +1135,10 @@ MonoBehaviour:
   m_Padding:
     m_Left: 0
     m_Right: 0
-    m_Top: 248
+    m_Top: 198
     m_Bottom: 0
-  m_ChildAlignment: 1
-  m_Spacing: -385
+  m_ChildAlignment: 7
+  m_Spacing: -315.93
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0
@@ -2036,6 +2037,7 @@ MonoBehaviour:
   contoh_1_image: {fileID: 31875132}
   contoh_2_image: {fileID: 403030834}
   contoh_3_image: {fileID: 1865278067}
+  BG: {fileID: 1510633625}
   nomor_content: -1
   pengertianContent:
   - "PLTS mengubah energi sinar matahari menjadi energi listrik melalui panel surya
@@ -2128,29 +2130,37 @@ MonoBehaviour:
     berdaya tinggi tanpa menghasilkan emisi gas rumah kaca selama operasi normal.
     Dengan biaya operasional yang relatif rendah.
   kekuranganContent:
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Biaya awal PLTS yang tinggi, termasuk panel surya dan baterai, serta kebutuhan
+    lahan luas dan kerentanan terhadap cuaca ekstrim, menjadi hambatan dalam pemanfaatannya.
+  - Pembangunan PLTA berpotensi mengganggu ekosistem sungai atau danau, memerlukan
+    investasi besar, dan dapat menggusur pemukiman penduduk di sekitar lokasi proyek.
+  - Ketergantungan PLTB pada kecepatan angin, biaya awal yang tinggi, kebutuhan lahan
+    luas, dan potensi bahaya bagi hewan terbang menjadi tantangan dalam pengembangan
+    energi angin sebagai sumber listrik yang andal.
+  - PLTU menghasilkan emisi gas rumah kaca yang berkontribusi pada perubahan iklim,
+    membutuhkan pasokan bahan bakar fosil yang terbatas, dan menghasilkan limbah
+    padat yang perlu dikelola dengan baik.
+  - Ketergantungan PLTN pada uranium yang tidak terbarukan, biaya pembangunan yang
+    sangat tinggi, risiko kecelakaan fatal, dan produksi limbah nuklir berbahaya
+    menjadi pertimbangan serius dalam pengembangan energi nuklir.
   contoh_1_Content:
+  - PLTS Cirata, Jawa Barat
+  - PLTA Cirata, Cianjur
   - 
-  - 
-  - 
-  - 
-  - 
+  - PLTU Palton, Jawa Timur
+  - PLTN Kashiwazaki-Kariwa, Jepang
   contoh_2_Content:
+  - PLTS Bangli, Bali
+  - PLTA Wonogiri, Solo
   - 
-  - 
-  - 
-  - 
-  - 
+  - PLTU Suralaya, Jawa Barat
+  - PLTN Hanul, Korea Selatan
   contoh_3_Content:
+  - PLTS likupang, Sulawesi Utara
+  - PLTA Asahan 1, Toba samosir, Sumatera Utara
   - 
-  - 
-  - 
-  - 
-  - 
+  - PLTU Batang, Jawa Tengah
+  - PLTN Gravelines, Prancis
   contoh_1_image_content:
   - {fileID: 0}
   - {fileID: 0}
@@ -2169,6 +2179,12 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  Background:
+  - {fileID: 21300000, guid: e6968ef9dd14d9643bbfb0bd7d672da2, type: 3}
+  - {fileID: 21300000, guid: 6d31386081aaf4840bea342cbc8948f6, type: 3}
+  - {fileID: 21300000, guid: c0d25ff48b24b3e4194ef3cf739416f9, type: 3}
+  - {fileID: 21300000, guid: c8643c7f3f7e04f43bbe8d674ff4b560, type: 3}
+  - {fileID: 21300000, guid: bbb41b6bc188e944582f0a8c8013aa44, type: 3}
 --- !u!1 &447137360
 GameObject:
   m_ObjectHideFlags: 0
@@ -2455,7 +2471,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -356.0001, y: -255.82825}
+  m_AnchoredPosition: {x: 353, y: -256.19}
   m_SizeDelta: {x: 270, y: 281}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &477457876
@@ -2546,7 +2562,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7c724bf6aac1a494c8769e4debdf2f75, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 23dfb2586f1f93e4a8e31c88905e5fd2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2995,11 +3011,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: b92efc28601b5d04bbabae480b961ffb, type: 3}
-    m_FontSize: 26
+    m_FontSize: 34
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 42
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -3219,7 +3235,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 5
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3425,7 +3441,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 316.91806, y: -648.83325}
+  m_AnchoredPosition: {x: 316.91806, y: -862.48254}
   m_SizeDelta: {x: 554, y: 175}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &589658282
@@ -3495,6 +3511,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1937992114}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &589658283
 MonoBehaviour:
@@ -4018,6 +4046,174 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 694429226}
+  m_CullTransparentMesh: 1
+--- !u!1 &707482179
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 707482180}
+  - component: {fileID: 707482183}
+  - component: {fileID: 707482182}
+  - component: {fileID: 707482181}
+  m_Layer: 5
+  m_Name: Kembali BTN
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &707482180
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 707482179}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.63477254, y: 0.63477254, z: 0.63477254}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 136789622}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 316.91806, y: -992.50006}
+  m_SizeDelta: {x: 554, y: 175}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &707482181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 707482179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.6509804, g: 0.6509804, b: 0.6509804, a: 1}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 707482182}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 476642412}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: ContohPage
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1937992114}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 476642408}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1937112201}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+--- !u!114 &707482182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 707482179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: a710132303838684aa971602c2b9044c, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &707482183
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 707482179}
   m_CullTransparentMesh: 1
 --- !u!1 &719024275
 GameObject:
@@ -4768,7 +4964,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 316.91806, y: -492.16663}
+  m_AnchoredPosition: {x: 316.91806, y: -709.465}
   m_SizeDelta: {x: 554, y: 221}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &867953738
@@ -4830,6 +5026,18 @@ MonoBehaviour:
       - m_Target: {fileID: 867953738}
         m_TargetAssemblyTypeName: UnityEngine.UI.Selectable, UnityEngine.UI
         m_MethodName: set_interactable
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1937992114}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5112,7 +5320,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 4
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -5906,7 +6114,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1110063623
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6001,7 +6209,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 127.26416, y: 104.000046}
+  m_AnchoredPosition: {x: 127.26416, y: 11.000023}
   m_SizeDelta: {x: 50, y: 1058}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1184063659
@@ -6491,7 +6699,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -7583,7 +7791,7 @@ GameObject:
   - component: {fileID: 1510633627}
   - component: {fileID: 1510633629}
   m_Layer: 5
-  m_Name: PLTS BG
+  m_Name: BG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7782,7 +7990,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1526248571
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7937,7 +8145,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 3
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -8816,7 +9024,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -9375,7 +9583,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 316.91806, y: -335.5}
+  m_AnchoredPosition: {x: 316.91806, y: -556.4475}
   m_SizeDelta: {x: 554, y: 175}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1937992114
@@ -9444,18 +9652,6 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 403399369}
-        m_TargetAssemblyTypeName: ManagementContent, Assembly-CSharp
-        m_MethodName: setContent
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
-          m_FloatArgument: 0
-          m_StringArgument: 1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1937992115
@@ -10092,7 +10288,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -111.537415, y: 104}
+  m_AnchoredPosition: {x: -111.537415, y: 11}
   m_SizeDelta: {x: 50, y: 1058}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2039896431

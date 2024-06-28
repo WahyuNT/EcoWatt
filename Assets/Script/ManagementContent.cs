@@ -16,6 +16,7 @@ public class ManagementContent : MonoBehaviour
     public GameObject contoh_1_image;
     public GameObject contoh_2_image;
     public GameObject contoh_3_image;
+    public GameObject BG;
     public int nomor_content = 1;
 
     public string[] pengertianContent;
@@ -28,7 +29,7 @@ public class ManagementContent : MonoBehaviour
     public Image[] contoh_1_image_content;
     public Image[] contoh_2_image_content;
     public Image[] contoh_3_image_content;
-
+    public Sprite[] Background;
 
 
 
@@ -44,5 +45,8 @@ public class ManagementContent : MonoBehaviour
         // contoh_1_image.GetComponent<Image>().sprite = contoh_1_image_content[nomor_content].sprite;
         // contoh_2_image.GetComponent<Image>().sprite = contoh_2_image_content[nomor_content].sprite;
         // contoh_3_image.GetComponent<Image>().sprite = contoh_3_image_content[nomor_content].sprite;
+
+        BG.GetComponent<Image>().sprite = Background[nomor_content];
+
     }
 }
