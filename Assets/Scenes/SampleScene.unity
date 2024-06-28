@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 30409311}
   - component: {fileID: 30409310}
   m_Layer: 5
-  m_Name: Contoh_1 Badge
+  m_Name: Contoh_3 Badge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -220,6 +220,81 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 30409308}
+  m_CullTransparentMesh: 1
+--- !u!1 &31875132
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 31875133}
+  - component: {fileID: 31875135}
+  - component: {fileID: 31875134}
+  m_Layer: 5
+  m_Name: Contoh Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &31875133
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31875132}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 13.41, y: 13.41, z: 13.41}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1706154929}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &31875134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31875132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 38f5a95575f3ab54783feed89c307494, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &31875135
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31875132}
   m_CullTransparentMesh: 1
 --- !u!1 &37068257
 GameObject:
@@ -309,7 +384,7 @@ GameObject:
   - component: {fileID: 47836220}
   - component: {fileID: 47836219}
   m_Layer: 5
-  m_Name: Kelebihan_Box
+  m_Name: Pengertian_Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -702,7 +777,7 @@ GameObject:
   - component: {fileID: 80442217}
   - component: {fileID: 80442216}
   m_Layer: 5
-  m_Name: Cth1 Text
+  m_Name: Cth3 Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1760,6 +1835,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 399372860}
   m_CullTransparentMesh: 1
+--- !u!1 &403030834
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 403030835}
+  - component: {fileID: 403030837}
+  - component: {fileID: 403030836}
+  m_Layer: 5
+  m_Name: Contoh 2 Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &403030835
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403030834}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 13.41, y: 13.41, z: 13.41}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1342274073}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &403030836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403030834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: fb813ea232d53fa499ee95fac59208b0, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &403030837
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403030834}
+  m_CullTransparentMesh: 1
 --- !u!1 &403399364
 GameObject:
   m_ObjectHideFlags: 0
@@ -1772,6 +1922,7 @@ GameObject:
   - component: {fileID: 403399367}
   - component: {fileID: 403399366}
   - component: {fileID: 403399365}
+  - component: {fileID: 403399369}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1864,6 +2015,160 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &403399369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403399364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ad5d3876a04ac741bd2ce3fe9852d65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pengertian: {fileID: 530864100}
+  Kelebihan: {fileID: 719024277}
+  Kekurangan: {fileID: 1490720998}
+  contoh_1_name: {fileID: 1800491238}
+  contoh_2_name: {fileID: 1661837592}
+  contoh_3_name: {fileID: 80442216}
+  contoh_1_image: {fileID: 31875132}
+  contoh_2_image: {fileID: 403030834}
+  contoh_3_image: {fileID: 1865278067}
+  nomor_content: -1
+  pengertianContent:
+  - "PLTS mengubah energi sinar matahari menjadi energi listrik melalui panel surya
+    yang terbuat dari bahan semikonduktor. Panel surya menyerap sinar matahari dan
+    menghasilkan arus listrik searah (DC) yang kemudian diubah menjadi arus listrik
+    bolak-balik (AC) melalui inverter. cara kerja PLTS sebenarnya cukup sederhana.
+    Komponen utama dari PLTS terdiri atas sel fotovoltaik. Fungsinya untuk menangkap
+    panas matahari yang bisa diubah menjadi energi listrik.\_ Panas yang telah diatangkap
+    oleh fotovoltaik akan digunakan untuk memanaskan cairan yang setelahnya akan
+    berubah menjadi uap. Uap inilah yang akan dipanaskan dan menghasilkan listrik.\_
+    Agar bisa berfungsi dengan maksimal, ada beberapa komponen yang harus dimiliki
+    oleh PLTS. Komponen pertama adalah sel surya yang menjadi komponen terpenting.
+    Objek satu ini memiliki ukuran 10 sampai 15 cm dengan bentuk persegi. Komponen
+    inilah yang mampu mengkonversikan energi surya menjadi energi listrik.\_ Selain
+    itu, dalam sistem PLTS juga ada komponen\_Balance of System\_atau BOS yaitu\_inverter\_yang
+    berfungsi untuk mengubah daya Arus Searah (DC) menjadi arus bolak-balik standar
+    (AC) dan\_juga terdapat\_controller\_untuk mengatur arus searah yang diisi ke
+    baterai dan diambil dari baterai ke beban/tujuan penggunaan listrik kita.\_"
+  - "Pembangkit listrik tenaga air (PLTA) adalah teknologi yang memanfaatkan energi
+    potensial dari aliran air kemudian diubah menjadi energi listrik. Bagaimana cara
+    kerja PLTA? Secara sederhana, cara kerja PLTA adalah energi potensial yang ada
+    di aliran air kemudian dimanfaatkan untuk menggerakkan turbin. Turbin ini kemudian
+    berputar dan menghasilkan energi mekanik karena mendapat tekanan dari aliran
+    air. Energi mekanik dari putaran turbin kemudian diteruskan untuk memutar generator.
+    Dari generator inilah tercipta energi listrik. PLTA memiliki berbagai komponen
+    agar bisa bekerja secara optimal dan menghasilkan energi listrik.\LWaduk, Pipa,
+    Turbin, Generator, Transformator PLTA memiliki beberapa jenis yang diklasifikasikan
+    berdasarkan kapasitas terpasangnya dari kilowatt (kW) hingga megawatt (MW).\LPLTA
+    picohydro: kurang dari 0,5 kW  PLTA microhydro: 0,5 kW sampai 100 kW  PLTA minihydro:
+    100 kW sampai 1.000 kW  PLTA skala kecil: 1 MW sampai 10 MW  PLTA skala besar:
+    di atas 10 MW"
+  - "PLTB mengubah energi kinetik angin menjadi energi listrik melalui turbin angin.
+    Bilah-bilah turbin angin berputar karena dorongan angin dan menghasilkan putaran
+    mekanik. Putaran mekanik ini kemudian diubah menjadi energi listrik melalui generator.PLTB
+    memiliki berbagai komponen agar bisa bekerja secara optimal dan menghasilkan
+    energi listrik. Gearbox alat ini berfungsi buat mengubah putaran rendah di kincir
+    menjadi putaran tinggi. biasanya Gearbox yang dipergunakan sekitar 1:60.  Brake
+    System\Lindera ini diharapkan saat angin berhembus terlalu kencang yang bisa
+    menyebabkan putaran berlebih di generator. Generator ada berbagai jenis generator
+    yang dapat dipergunakan pada sistem turbin angin, antara lain generator serempak
+    (synchronous generator), generator tidak-serempak (unsynchronous generator),
+    rotor kandang maupun rotor belitan ataupun generator magnet permanen. Penyimpan
+    energi\Ldi sistem stand alone, diharapkan baterei buat menyimpan energi\_listrik\_berlebih
+    yg didapatkan turbin angin. contoh sederhana yg bisa dijadikan referensi menjadi
+    indera penyimpan tenaga listrik merupakan aki kendaraan beroda empat. Aki 12
+    volt, 65 Ah dapat dipakai buat mencatu tempat tinggal tangga selama 0.lima jam
+    di daya 780 watt."
+  - "PLTU mengubah energi panas dari pembakaran bahan bakar fosil (batubara, gas
+    alam, atau minyak bumi) menjadi energi listrik melalui turbin uap. Bahan bakar
+    fosil dibakar di dalam boiler untuk menghasilkan uap bertekanan tinggi. Uap ini
+    kemudian dialirkan ke turbin yang memutar generator untuk menghasilkan listrik. 
+    Cara kerja PLTU dimulai dengan proses\_pembakaran\_batu bara di dalam tungku
+    pembakaran. Pada saat batu bara terbakar, panas yang dihasilkan akan menyalakan
+    air yang berada di dalam pipa-pipa boiler, dan mengubahnya menjadi uap air. Uap
+    air yang dihasilkan ini kemudian diarahkan ke turbin uap yang terhubung dengan
+    generator untuk menghasilkan listrik.\_\_  Proses yang terjadi di dalam PLTU
+    sangat kompleks dan melibatkan banyak sistem dan komponen. Berikut adalah beberapa
+    komponen utama yang terdapat dalam PLTU: Pembakaran bahan bakar,  Boiler,  Turbin, 
+    Generator   "
+  - 'PLTN memanfaatkan energi dari reaksi fusi nuklir untuk menghasilkan panas yang
+    digunakan untuk memanaskan air dan menghasilkan uap. Uap ini kemudian dialirkan
+    ke turbin yang memutar generator untuk menghasilkan listrik. Proses PLTN secara
+    umum ini melibatkan beberapa komponen utama, termasuk:  Fisi: Neutron menabrak
+    inti atom U-235 atau Pu-239, menyebabkannya terpecah menjadi atom yang lebih
+    kecil dan melepaskan 2-3 neutron baru.  Reaksi Berantai: Neutron yang dilepaskan
+    dari fisi dapat menabrak inti atom lain, memicu lebih banyak fisi, dan seterusnya.
+    Proses ini berkelanjutan, menghasilkan reaksi berantai yang melepaskan energi
+    panas yang besar.  Pendinginan: Air bersirkulasi di sekitar inti reaktor untuk
+    menyerap panas dari fisi. Air ini bertindak sebagai pendingin dan membawa panas
+    ke komponen lain.  Uap Air: Air panas bertekanan tinggi dialirkan ke penukar
+    panas (generator uap) di mana ia diubah menjadi uap.  Pembangkit Listrik: Uap
+    ini menggerakkan turbin yang terhubung ke generator, menghasilkan listrik.'
+  kelebihanContent:
+  - Energi surya memiliki kelebihan yaitu ramah lingkungan, dan berkelanjutan. Dengan
+    biaya operasional yang rendah dan fleksibilitas dalam skala, mulai dari sistem
+    kecil di atap rumah hingga ladang surya besar
+  - Pembangkit Listrik Tenaga Air menawarkan solusi energi terbarukan yang berkelanjutan,
+    memanfaatkan aliran air yang melimpah dan terus ada di alam. Selain ramah lingkungan,
+    PLTA juga memberikan manfaat multifungsi seperti irigasi, pengendalian banjir,
+    dan bahkan pengembangan pariwisata, menjadikannya investasi berharga bagi masyarakat
+    dan lingkungan.
+  - Energi surya memiliki sejumlah keuntungan seperti sumber energi terbarukan yang
+    tak pernah habis, ramah lingkungan karena minim emisi, minim perawatan dan tahan
+    lama, serta biaya operasional yang sangat rendah, menjadikannya investasi jangka
+    panjang yang menguntungkan.
+  - Energi uap menawarkan kemampuan menghasilkan listrik dalam skala besar, stabilitas
+    pasokan yang tidak terpengaruh cuaca, serta efisiensi biaya operasional yang
+    menjadikannya pilihan menarik dalam memenuhi kebutuhan energi yang terus meningkat.
+  - Pembangkit Listrik Tenaga Nuklir (PLTN) menawarkan solusi energi yang andal dan
+    berdaya tinggi tanpa menghasilkan emisi gas rumah kaca selama operasi normal.
+    Dengan biaya operasional yang relatif rendah.
+  kekuranganContent:
+  - 
+  - 
+  - 
+  - 
+  - 
+  contoh_1_Content:
+  - 
+  - 
+  - 
+  - 
+  - 
+  contoh_2_Content:
+  - 
+  - 
+  - 
+  - 
+  - 
+  contoh_3_Content:
+  - 
+  - 
+  - 
+  - 
+  - 
+  contoh_1_image_content:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  contoh_2_image_content:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  contoh_3_image_content:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &447137360
 GameObject:
   m_ObjectHideFlags: 0
@@ -2631,6 +2936,85 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 528003429}
   m_CullTransparentMesh: 1
+--- !u!1 &530864098
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 530864099}
+  - component: {fileID: 530864101}
+  - component: {fileID: 530864100}
+  m_Layer: 5
+  m_Name: Pengertian Textt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &530864099
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 530864098}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 596726183}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -5.247}
+  m_SizeDelta: {x: 1343.1, y: 731.621}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &530864100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 530864098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.4431373, g: 0.19607845, b: 0.14117648, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: b92efc28601b5d04bbabae480b961ffb, type: 3}
+    m_FontSize: 26
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: New Text
+--- !u!222 &530864101
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 530864098}
+  m_CullTransparentMesh: 1
 --- !u!1 &539909541
 GameObject:
   m_ObjectHideFlags: 0
@@ -2757,7 +3141,7 @@ GameObject:
   - component: {fileID: 562277719}
   - component: {fileID: 562277718}
   m_Layer: 5
-  m_Name: Materi BTN (4)
+  m_Name: Materi BTN PLTN
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2827,7 +3211,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 562277719}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 403399369}
+        m_TargetAssemblyTypeName: ManagementContent, Assembly-CSharp
+        m_MethodName: setContent
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 476642408}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1937112201}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &562277719
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3143,7 +3563,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 47836218}
-  - {fileID: 1468505434}
+  - {fileID: 530864099}
   m_Father: {fileID: 571459201}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
@@ -4614,7 +5034,7 @@ GameObject:
   - component: {fileID: 985774338}
   - component: {fileID: 985774337}
   m_Layer: 5
-  m_Name: Materi BTN (3)
+  m_Name: Materi BTN PLTU
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4684,7 +5104,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 985774338}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 403399369}
+        m_TargetAssemblyTypeName: ManagementContent, Assembly-CSharp
+        m_MethodName: setContent
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 476642408}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1937112201}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &985774338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5450,7 +5906,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1110063623
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5957,7 +6413,7 @@ GameObject:
   - component: {fileID: 1256719612}
   - component: {fileID: 1256719611}
   m_Layer: 5
-  m_Name: Materi BTN
+  m_Name: Materi BTN PLTS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6028,14 +6484,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1937112201}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 403399369}
+        m_TargetAssemblyTypeName: ManagementContent, Assembly-CSharp
+        m_MethodName: setContent
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -6051,6 +6507,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1937112201}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1256719612
 MonoBehaviour:
@@ -6274,7 +6742,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.9354128, y: 0.34289125, z: 0.34289125}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 403030835}
   m_Father: {fileID: 2030563863}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
@@ -6714,155 +7183,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1433019282}
-  m_CullTransparentMesh: 1
---- !u!1 &1468505433
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1468505434}
-  - component: {fileID: 1468505436}
-  - component: {fileID: 1468505435}
-  m_Layer: 5
-  m_Name: Text (TMP)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1468505434
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1468505433}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 596726183}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1343.118, y: 673.91}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1468505435
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1468505433}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: "PLTS mengubah energi sinar matahari menjadi energi listrik melalui panel
-    surya yang terbuat dari bahan semikonduktor. Panel surya menyerap sinar matahari
-    dan menghasilkan arus listrik searah (DC) yang kemudian diubah menjadi arus listrik
-    bolak-balik (AC) melalui inverter. \nCara kerja PLTS sebenarnya cukup sederhana.
-    Komponen utama dari PLTS terdiri atas sel fotovoltaik. Fungsinya untuk menangkap
-    panas matahari yang bisa diubah menjadi energi listrik.\_\nPanas yang telah diatangkap
-    oleh fotovoltaik akan digunakan untuk memanaskan cairan yang setelahnya akan
-    berubah menjadi uap. Uap inilah yang akan dipanaskan dan menghasilkan listrik.\_\nAgar
-    bisa berfungsi dengan maksimal, ada beberapa komponen yang harus dimiliki oleh
-    PLTS. Komponen pertama adalah sel surya yang menjadi komponen terpenting. Objek
-    satu ini memiliki ukuran 10 sampai 15 cm dengan bentuk persegi. Komponen inilah
-    yang mampu mengkonversikan energi surya menjadi energi listrik.\_\nSelain itu,
-    dalam sistem PLTS juga ada komponen\_Balance of System\_atau BOS yaitu\_inverter\_yang
-    berfungsi untuk mengubah daya Arus Searah (DC) menjadi arus bolak-balik standar
-    (AC) dan\_juga terdapat\_controller\_untuk mengatur arus searah yang diisi ke
-    baterai dan diambil dari baterai ke beban/tujuan penggunaan listrik kita.\_"
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 98904eed5d5cdb74c8729e367d7b1b25, type: 2}
-  m_sharedMaterial: {fileID: -2917428157436333128, guid: 98904eed5d5cdb74c8729e367d7b1b25, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 1
-  m_colorMode: 2
-  m_fontColorGradient:
-    topLeft: {r: 0.54901963, g: 0.21960786, b: 0.13725491, a: 1}
-    topRight: {r: 0.54901963, g: 0.21960786, b: 0.13725491, a: 1}
-    bottomLeft: {r: 0.39607847, g: 0.17254902, b: 0.1137255, a: 1}
-    bottomRight: {r: 0.39607847, g: 0.17254902, b: 0.1137255, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 26.3
-  m_fontSizeBase: 26.3
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 32
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0.000000045446843, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &1468505436
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1468505433}
   m_CullTransparentMesh: 1
 --- !u!1 &1476342809
 GameObject:
@@ -7462,7 +7782,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1526248571
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7539,7 +7859,7 @@ GameObject:
   - component: {fileID: 1547972845}
   - component: {fileID: 1547972844}
   m_Layer: 5
-  m_Name: Materi BTN (2)
+  m_Name: Materi BTN PLTB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7609,7 +7929,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1547972845}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 403399369}
+        m_TargetAssemblyTypeName: ManagementContent, Assembly-CSharp
+        m_MethodName: setContent
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 476642408}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1937112201}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1547972845
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7661,7 +8017,7 @@ GameObject:
   - component: {fileID: 1573778961}
   - component: {fileID: 1573778960}
   m_Layer: 5
-  m_Name: Contoh_1
+  m_Name: Contoh_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7678,7 +8034,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.9354128, y: 0.34289125, z: 0.34289125}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1865278068}
   m_Father: {fileID: 1015199140}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
@@ -8031,7 +8388,7 @@ GameObject:
   - component: {fileID: 1657707980}
   - component: {fileID: 1657707979}
   m_Layer: 5
-  m_Name: Contoh_1 Badge
+  m_Name: Contoh_2 Badge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8128,7 +8485,7 @@ GameObject:
   - component: {fileID: 1661837593}
   - component: {fileID: 1661837592}
   m_Layer: 5
-  m_Name: Cth1 Text
+  m_Name: Cth2 Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8300,7 +8657,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.9354128, y: 0.34289125, z: 0.34289125}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 31875133}
   m_Father: {fileID: 1349337942}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
@@ -8380,7 +8738,7 @@ GameObject:
   - component: {fileID: 1754202602}
   - component: {fileID: 1754202601}
   m_Layer: 5
-  m_Name: Materi BTN (1)
+  m_Name: Materi BTN PLTA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8450,7 +8808,43 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1754202602}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 403399369}
+        m_TargetAssemblyTypeName: ManagementContent, Assembly-CSharp
+        m_MethodName: setContent
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 476642408}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1937112201}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1754202602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8718,6 +9112,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1829453941}
   m_CullTransparentMesh: 1
+--- !u!1 &1865278067
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1865278068}
+  - component: {fileID: 1865278070}
+  - component: {fileID: 1865278069}
+  m_Layer: 5
+  m_Name: Contoh 3 Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1865278068
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865278067}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 13.41, y: 13.41, z: 13.41}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1573778959}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1865278069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865278067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: f242c6b9bed9fc64aa039e33e0f46bc2, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1865278070
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865278067}
+  m_CullTransparentMesh: 1
 --- !u!1 &1886479894
 GameObject:
   m_ObjectHideFlags: 0
@@ -8975,6 +9444,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 403399369}
+        m_TargetAssemblyTypeName: ManagementContent, Assembly-CSharp
+        m_MethodName: setContent
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1937992115
