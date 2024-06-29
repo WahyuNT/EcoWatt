@@ -2038,6 +2038,7 @@ MonoBehaviour:
   contoh_2_image: {fileID: 403030834}
   contoh_3_image: {fileID: 1865278067}
   BG: {fileID: 1510633625}
+  BadgeTitle: {fileID: 1374653121}
   nomor_content: -1
   pengertianContent:
   - "PLTS mengubah energi sinar matahari menjadi energi listrik melalui panel surya
@@ -2185,6 +2186,18 @@ MonoBehaviour:
   - {fileID: 21300000, guid: c0d25ff48b24b3e4194ef3cf739416f9, type: 3}
   - {fileID: 21300000, guid: c8643c7f3f7e04f43bbe8d674ff4b560, type: 3}
   - {fileID: 21300000, guid: bbb41b6bc188e944582f0a8c8013aa44, type: 3}
+  ImgBadge:
+  - {fileID: 21300000, guid: 669ead9f2473d614e80e6cb957f82aa6, type: 3}
+  - {fileID: 21300000, guid: a921cdc26ad2c70498396b4248d2d7c3, type: 3}
+  - {fileID: 21300000, guid: f223bb1f33362b643ab830f2384b04f8, type: 3}
+  - {fileID: 21300000, guid: 54cea82ebccff724985e59931ab27a05, type: 3}
+  - {fileID: 21300000, guid: d91be5a35512ae949965aefb5e889542, type: 3}
+  FontPengertian: 2000000022000000200000002200000022000000
+  FontKelebihan: 5200000052000000520000005200000052000000
+  FontKekurangan: 5200000052000000520000005200000052000000
+  FontContoh1: 6100000061000000610000006100000061000000
+  FontContoh2: 6100000061000000610000006100000061000000
+  FontContoh3: 6100000061000000610000006100000061000000
 --- !u!1 &447137360
 GameObject:
   m_ObjectHideFlags: 0
@@ -2913,7 +2926,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 528003432}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 815273838}
+        m_TargetAssemblyTypeName: Quiz, Assembly-CSharp
+        m_MethodName: pilihJawaban
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: c
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &528003432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2986,8 +3011,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -5.247}
-  m_SizeDelta: {x: 1343.1, y: 731.621}
+  m_AnchoredPosition: {x: 0, y: 6.064}
+  m_SizeDelta: {x: 1343.1, y: 754.243}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &530864100
 MonoBehaviour:
@@ -3513,8 +3538,8 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1937992114}
-        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
-        m_MethodName: set_enabled
+        m_TargetAssemblyTypeName: UnityEngine.UI.Selectable, UnityEngine.UI
+        m_MethodName: set_interactable
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4129,30 +4154,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 476642412}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: Play
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: ContohPage
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1937992114}
-        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 476642408}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -4168,6 +4169,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1937112201}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1937992114}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Selectable, UnityEngine.UI
+        m_MethodName: set_interactable
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4249,8 +4262,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.584, y: -22.847}
-  m_SizeDelta: {x: 1313.887, y: 1684.749}
+  m_AnchoredPosition: {x: 5.584, y: 14.045}
+  m_SizeDelta: {x: 1313.887, y: 1758.533}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &719024277
 MonoBehaviour:
@@ -4857,13 +4870,14 @@ GameObject:
   - component: {fileID: 815273835}
   - component: {fileID: 815273837}
   - component: {fileID: 815273836}
+  - component: {fileID: 815273838}
   m_Layer: 5
   m_Name: Quiz Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &815273835
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4929,6 +4943,189 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 815273834}
   m_CullTransparentMesh: 1
+--- !u!114 &815273838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815273834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 740fe7f403418444ba780e70e69d2a65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soalText: {fileID: 113814319}
+  soal:
+  - Apa yang dimaksud dengan PLTS?
+  - Apa keuntungan utama menggunakan PLTS?
+  - Di manakah PLTS terbesar di Indonesia terletak?
+  - Komponen utama PLTS yang berfungsi untuk mengubah energi panas matahari menjadi
+    energi listrik adalah?
+  - Bagaimana cara kerja PLTS?
+  - Apa yang dimaksud dengan PLTB?
+  - Apa keuntungan utama menggunakan PLTB?
+  - Di manakah PLTB terbesar di Indonesia terletak?
+  - Bagaimana cara kerja PLTB?
+  - Komponen PLTB yang berfungsi untuk mengubah putaran rendah bilah turbin menjadi
+    putaran tinggi adalah?
+  - Apa yang dimaksud dengan PLTU?
+  - Apa keuntungan utama menggunakan PLTU?
+  - Di manakah PLTU terbesar di Indonesia terletak?
+  - Bagaimana cara kerja PLTU?
+  - Komponen PLTU yang berfungsi untuk menghasilkan uap bertekanan tinggi dari air
+    yang dipanaskan adalah?
+  - Apa yang dimaksud dengan Pembangkit Listrik Tenaga Air (PLTA)?
+  - PLTA dapat mengakibatkan beberapa dampak negatif. Manakah dari berikut ini yang
+    bukan merupakan dampak negatif dari PLTA?
+  - Komponen mana dari PLTA yang bertanggung jawab untuk mengubah energi mekanik
+    menjadi energi listrik?
+  - 'PLTA dapat diklasifikasikan berdasarkan kapasitas terpasangnya. PLTA dengan
+    kapasitas antara 0,5 kW sampai 100 kW disebut sebagai:'
+  - Manakah dari berikut ini yang merupakan PLTA skala besar?
+  - Apa yang dimaksud dengan Pembangkit Listrik Tenaga Nuklir (PLTN)?
+  - PLTN memiliki beberapa keuntungan. Manakah dari berikut ini yang bukan merupakan
+    keuntungan dari PLTN?
+  - Komponen mana dari PLTN yang bertanggung jawab untuk mengubah uap menjadi energi
+    listrik?
+  - Apa yang terjadi selama proses fisi dalam reaktor nuklir?
+  - Manakah dari berikut ini yang merupakan risiko atau tantangan dari penggunaan
+    PLTN?
+  jawaban:
+  - b
+  - d
+  - a
+  - c
+  - d
+  - c
+  - d
+  - b
+  - c
+  - c
+  - d
+  - d
+  - b
+  - d
+  - c
+  - b
+  - c
+  - d
+  - b
+  - d
+  - b
+  - d
+  - c
+  - a
+  - b
+  JawabanKu: 
+  pilihanA:
+  - Pembangkit Listrik Tenaga Batubara
+  - Biaya awal yang rendah
+  - PLTS Cirata, Jawa Barat
+  - Inverter
+  - Panas matahari diubah menjadi uap yang kemudian menghasilkan listrik.
+  - Pembangkit Listrik Tenaga Batubara
+  - Menghasilkan emisi gas rumah kaca yang tinggi
+  - PLTB Jeneponto
+  - 'Air dipanaskan untuk menghasilkan uap yang memutar turbin untuk menghasilkan
+    listrik. '
+  - Generator
+  - Pembangkit Listrik Tenaga Surya
+  - Terbarukan, ramah lingkungan, dan tidak bergantung pada cuaca
+  - PLTU Palton, Jawa Timur
+  - Energi kinetik air memutar turbin untuk menghasilkan listrik. B. Panel surya
+    menyerap sinar matahari dan menghasilkan arus listrik bolak-balik (AC)
+  - Turbin
+  - Sistem yang menggunakan energi panas bumi untuk menghasilkan listrik.
+  - Mengganggu ekosistem danau atau sungai.
+  - Waduk
+  - PLTA picohydro
+  - PLTA dengan kapasitas kurang dari 0,5 kW
+  - Sistem yang menggunakan energi panas bumi untuk menghasilkan listrik.
+  - Tidak ada emisi gas rumah kaca selama beroperasi normal.
+  - Reaktor nuklir
+  - Neutron menabrak inti atom, menyebabkan atom terpecah dan melepaskan energi panas.
+  - Menghasilkan daya output yang rendah.
+  pilihanB:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  pilihanC:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  pilihanD:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  skor: 0
+  nomor: 0
 --- !u!1 &867953736
 GameObject:
   m_ObjectHideFlags: 0
@@ -5036,8 +5233,8 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1937992114}
-        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
-        m_MethodName: set_enabled
+        m_TargetAssemblyTypeName: UnityEngine.UI.Selectable, UnityEngine.UI
+        m_MethodName: set_interactable
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5045,7 +5242,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &867953739
 MonoBehaviour:
@@ -5912,7 +6109,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1072019761}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 815273838}
+        m_TargetAssemblyTypeName: Quiz, Assembly-CSharp
+        m_MethodName: pilihJawaban
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: a
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1072019761
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6333,7 +6542,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1184883057}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 815273838}
+        m_TargetAssemblyTypeName: Quiz, Assembly-CSharp
+        m_MethodName: pilihJawaban
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: b
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1184883057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6455,7 +6676,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1189673497}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 815273838}
+        m_TargetAssemblyTypeName: Quiz, Assembly-CSharp
+        m_MethodName: pilihJawaban
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: d
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1189673497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7310,7 +7543,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 519, y: 1.1499023}
+  m_AnchoredPosition: {x: 519, y: 1.1498413}
   m_SizeDelta: {x: 689.3547, y: 998.11}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &1433019282
@@ -7580,8 +7813,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 27.064, y: -27.885}
-  m_SizeDelta: {x: 1299.079, y: 1694.826}
+  m_AnchoredPosition: {x: 27.064, y: 6.081}
+  m_SizeDelta: {x: 1299.079, y: 1762.759}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1490720998
 MonoBehaviour:
@@ -9487,7 +9720,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1937112202
 RectTransform:
   m_ObjectHideFlags: 0

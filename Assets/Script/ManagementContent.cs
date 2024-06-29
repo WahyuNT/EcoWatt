@@ -17,6 +17,7 @@ public class ManagementContent : MonoBehaviour
     public GameObject contoh_2_image;
     public GameObject contoh_3_image;
     public GameObject BG;
+    public GameObject BadgeTitle;
     public int nomor_content = 1;
 
     public string[] pengertianContent;
@@ -30,7 +31,14 @@ public class ManagementContent : MonoBehaviour
     public Image[] contoh_2_image_content;
     public Image[] contoh_3_image_content;
     public Sprite[] Background;
+    public Sprite[] ImgBadge;
 
+    public int[] FontPengertian;
+    public int[] FontKelebihan;
+    public int[] FontKekurangan;
+    public int[] FontContoh1;
+    public int[] FontContoh2;
+    public int[] FontContoh3;
 
 
     public void setContent(int content)
@@ -47,6 +55,16 @@ public class ManagementContent : MonoBehaviour
         // contoh_3_image.GetComponent<Image>().sprite = contoh_3_image_content[nomor_content].sprite;
 
         BG.GetComponent<Image>().sprite = Background[nomor_content];
+        BadgeTitle.GetComponent<Image>().sprite = ImgBadge[nomor_content];
+
+        Pengertian.fontSize = FontPengertian[nomor_content];
+        Kelebihan.fontSize = FontKelebihan[nomor_content];
+        Kekurangan.fontSize = FontKekurangan[nomor_content];
+        contoh_1_name.fontSize = FontContoh1[nomor_content];
+        contoh_2_name.fontSize = FontContoh2[nomor_content];
+        contoh_3_name.fontSize = FontContoh3[nomor_content];
+
+
 
     }
 }
