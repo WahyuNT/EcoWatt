@@ -10,6 +10,10 @@ public class Quiz : MonoBehaviour
     public string[] soal;
     public string[] jawaban;
     public string JawabanKu;
+    public Text BtnA;
+    public Text BtnB;
+    public Text BtnC;
+    public Text BtnD;
     public string[] pilihanA;
     public string[] pilihanB;
     public string[] pilihanC;
@@ -23,6 +27,10 @@ public class Quiz : MonoBehaviour
         int soalIndex = UnityEngine.Random.Range(0, soal.Length);
 
         soalText.text = soal[soalIndex];
+        BtnA.text = pilihanA[soalIndex];
+        BtnB.text = pilihanB[soalIndex];
+        BtnC.text = pilihanC[soalIndex];
+        BtnD.text = pilihanD[soalIndex];
 
         Debug.Log(soalIndex);
     }

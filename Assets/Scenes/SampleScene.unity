@@ -5018,6 +5018,10 @@ MonoBehaviour:
   - a
   - b
   JawabanKu: 
+  BtnA: {fileID: 481723203}
+  BtnB: {fileID: 516014296}
+  BtnC: {fileID: 1476342811}
+  BtnD: {fileID: 67864701}
   pilihanA:
   - Pembangkit Listrik Tenaga Batubara
   - Biaya awal yang rendah
@@ -5047,83 +5051,95 @@ MonoBehaviour:
   - Neutron menabrak inti atom, menyebabkan atom terpecah dan melepaskan energi panas.
   - Menghasilkan daya output yang rendah.
   pilihanB:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Pembangkit Listrik Tenaga Surya
+  - Menghasilkan emisi gas rumah kaca yang tinggi
+  - PLTS Bangli, Bali
+  - Baterai
+  - Panel surya menyerap sinar matahari dan menghasilkan arus listrik bolak-balik
+    (AC).
+  - Pembangkit Listrik Tenaga Air
+  - Membutuhkan banyak air untuk beroperasi
+  - 'PLTB Sidrap, Sulawesi Selatan '
+  - Batubara dibakar untuk menghasilkan panas yang memutar turbin untuk menghasilkan
+    listrik
+  - Rem
+  - Pembangkit Listrik Tenaga Air
+  - Membutuhkan sedikit lahan untuk instalasi
+  - PLTU Suralaya, Jawa Barat
+  - Panel surya menyerap sinar matahari dan menghasilkan arus listrik bolak-balik
+    (AC).
+  - Generator
+  - Teknologi yang memanfaatkan energi kinetik air untuk menggerakkan turbin dan
+    menghasilkan listrik.
+  - Membutuhkan investasi yang besar.
+  - Pipa
+  - PLTA microhydro
+  - PLTA dengan kapasitas antara 0,5 kW sampai 100 kW
+  - Sistem yang menggunakan energi panas dari reaksi fusi nuklir untuk menghasilkan
+    listrik.
+  - Biaya operasional murah.
+  - Penukar panas (generator uap)
+  - Inti atom menyatu, menghasilkan energi panas.
+  - Modal awal yang tinggi.
   pilihanC:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Pembangkit Listrik Tenaga Air
+  - Membutuhkan banyak lahan untuk instalasi
+  - PLTS Likupang, Sulawesi Utara
+  - Sel fotovoltaik
+  - PLTS menggunakan bahan bakar fosil untuk menghasilkan listrik
+  - Pembangkit Listrik Tenaga Bayu
+  - Menghasilkan limbah radioaktif yang berbahaya
+  - PLTB Tanah Laut, Kalimantan Selatan
+  - Energi kinetik angin memutar turbin angin yang menghasilkan putaran mekanik,
+    yang kemudian diubah menjadi energi listrik melalui generator.
+  - Gearbox
+  - 'Pembangkit Listrik Tenaga Angin '
+  - Menghasilkan energi dalam jumlah kecil
+  - PLTU Batang, Jawa Tengah
+  - Energi panas dari matahari diubah menjadi uap yang memutar turbin untuk menghasilkan
+    listrik
+  - Boiler
+  - Teknologi yang memanfaatkan energi matahari untuk menghasilkan listrik.
+  - Menggali sumber daya alam yang tidak terbarukan
+  - Turbin
+  - PLTA minihydro
+  - PLTA dengan kapasitas antara 1 MW sampai 10 MW
+  - Sistem yang menggunakan energi kinetik air untuk menghasilkan listrik.
+  - Menghasilkan daya output yang tinggi.
+  - Turbin
+  - Air dipanaskan secara langsung oleh panas matahari.
+  - Emisi gas rumah kaca yang tinggi selama beroperasi
   pilihanD:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Pembangkit Listrik Tenaga Angin
+  - Terbarukan, ramah lingkungan, biaya operasional rendah
+  - Ketiganya adalah PLTS terbesar di Indonesia
+  - Controller
+  - Panel surya menyerap sinar matahari dan menghasilkan arus listrik searah (DC)
+    yang diubah menjadi arus listrik bolak-balik (AC) melalui inverter.
+  - Pembangkit Listrik Tenaga Nuklir
+  - 'Terbarukan, ramah lingkungan, energi alam yang terus ada, minim perawatan dan
+    tahan lama, biaya operasional rendah '
+  - Ketiganya adalah PLTB terbesar di Indonesia
+  - Uranium mengalami fisi nuklir yang menghasilkan panas untuk menghasilkan uap
+    yang memutar turbin untuk menghasilkan listrik.
+  - Baterai
+  - Pembangkit Listrik Tenaga Uap
+  - 'Dapat menghasilkan listrik dalam jumlah besar, tidak bergantung cuaca, biaya
+    operasional murah '
+  - Ketiganya adalah PLTU terbesar di Indonesia
+  - Energi panas dari pembakaran bahan bakar fosil diubah menjadi uap yang memutar
+    turbin untuk menghasilkan listrik
+  - Tungku pembakaran
+  - Sistem yang menggunakan bahan bakar fosil untuk menghasilkan listrik
+  - Menggusur pemukiman
+  - Generator
+  - PLTA skala kecil
+  - PLTA dengan kapasitas di atas 10 MW
+  - Sistem yang menggunakan energi matahari untuk menghasilkan listrik
+  - Uranium merupakan sumber energi terbarukan
+  - Pendingin
+  - Uap dihasilkan dari air yang dipanaskan oleh energi angin.
+  - Biaya operasional yang sangat tinggi.
   skor: 0
   nomor: 0
 --- !u!1 &867953736
