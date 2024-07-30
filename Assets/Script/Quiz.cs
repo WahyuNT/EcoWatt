@@ -20,9 +20,38 @@ public class Quiz : MonoBehaviour
     public string[] pilihanD;
     public int skor;
     public int nomor;
+    public GameObject QuizPanel;
+    public GameObject SkorPanel;
+    public Text SkorText;
+
 
 
     void Start()
+    {
+        generateSoal();
+    }
+    void Update()
+    {
+        if (nomor == 10)
+        {
+            QuizPanel.SetActive(false);
+            SkorPanel.SetActive(true);
+            SkorText.text = skor.ToString();
+        }
+    }
+
+    public void pilihJawaban(string answer)
+    {
+        nomor += 1;
+        JawabanKu = answer;
+        if (JawabanKu == jawaban[nomor])
+        {
+            skor += 10;
+        }
+
+        generateSoal();
+    }
+    public void generateSoal()
     {
         int soalIndex = UnityEngine.Random.Range(0, soal.Length);
 
@@ -31,13 +60,12 @@ public class Quiz : MonoBehaviour
         BtnB.text = pilihanB[soalIndex];
         BtnC.text = pilihanC[soalIndex];
         BtnD.text = pilihanD[soalIndex];
-
         Debug.Log(soalIndex);
     }
-
-    public void pilihJawaban(string answer)
+    public void resetSoal()
     {
-        JawabanKu = answer;
-        Debug.Log(JawabanKu);
+        nomor = 0;
+        skor = 0;
+
     }
 }
