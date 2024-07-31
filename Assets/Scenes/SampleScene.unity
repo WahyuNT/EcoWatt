@@ -2160,39 +2160,39 @@ MonoBehaviour:
   contoh_1_Content:
   - PLTS Cirata, Jawa Barat
   - PLTA Cirata, Cianjur
-  - 
+  - PLTB Jeneponto, Sulawesi Selatan
   - PLTU Palton, Jawa Timur
   - PLTN Kashiwazaki-Kariwa, Jepang
   contoh_2_Content:
   - PLTS Bangli, Bali
   - PLTA Wonogiri, Solo
-  - 
+  - PLTB Sidrap, Sulawesi Selatan
   - PLTU Suralaya, Jawa Barat
   - PLTN Hanul, Korea Selatan
   contoh_3_Content:
   - PLTS likupang, Sulawesi Utara
   - PLTA Asahan 1, Toba samosir, Sumatera Utara
-  - 
+  - PLTB Tanah Laut, Kalimantan Selatan
   - PLTU Batang, Jawa Tengah
   - PLTN Gravelines, Prancis
   contoh_1_image_content:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: 38f5a95575f3ab54783feed89c307494, type: 3}
+  - {fileID: 21300000, guid: b23adfb0667df1b409eb568a7f6578f2, type: 3}
+  - {fileID: 21300000, guid: f6e3e60e52ccffa4fa88ebfebb498bdc, type: 3}
+  - {fileID: 21300000, guid: 4a1d90b876d18bc40bdcbd042ac96f08, type: 3}
+  - {fileID: 21300000, guid: 44f04e735d895e64c9404062f6603c0c, type: 3}
   contoh_2_image_content:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: fb813ea232d53fa499ee95fac59208b0, type: 3}
+  - {fileID: 21300000, guid: fec836ecae107784bb52806f65f6d94b, type: 3}
+  - {fileID: 21300000, guid: 9e5a24b9f4afdfa4996cbafa37d37f30, type: 3}
+  - {fileID: 21300000, guid: 849ef454bd8170d45aa8d05132cbb784, type: 3}
+  - {fileID: 21300000, guid: 22db878a9a75b1a4f99727396efbe49f, type: 3}
   contoh_3_image_content:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 21300000, guid: f242c6b9bed9fc64aa039e33e0f46bc2, type: 3}
+  - {fileID: 21300000, guid: ac1b3a26707dfb6488395ee263b34556, type: 3}
+  - {fileID: 21300000, guid: 1cdc262b8a36d2947a3d692e203b878e, type: 3}
+  - {fileID: 21300000, guid: cc675b3f3218b86449422a24fea15a96, type: 3}
+  - {fileID: 21300000, guid: 84e487cd386a7b84e94d0c1e69d6859e, type: 3}
   Background:
   - {fileID: 21300000, guid: e6968ef9dd14d9643bbfb0bd7d672da2, type: 3}
   - {fileID: 21300000, guid: 6d31386081aaf4840bea342cbc8948f6, type: 3}
@@ -2883,6 +2883,7 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2964,6 +2965,102 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &519420033
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: bbaa23f5a89ca3a4fab1e93d8099fff4, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &528003429
 GameObject:
   m_ObjectHideFlags: 0

@@ -27,9 +27,9 @@ public class ManagementContent : MonoBehaviour
     public string[] contoh_2_Content;
     public string[] contoh_3_Content;
 
-    public Image[] contoh_1_image_content;
-    public Image[] contoh_2_image_content;
-    public Image[] contoh_3_image_content;
+    public Sprite[] contoh_1_image_content;
+    public Sprite[] contoh_2_image_content;
+    public Sprite[] contoh_3_image_content;
     public Sprite[] Background;
     public Sprite[] ImgBadge;
 
@@ -50,9 +50,9 @@ public class ManagementContent : MonoBehaviour
         contoh_1_name.text = contoh_1_Content[nomor_content];
         contoh_2_name.text = contoh_2_Content[nomor_content];
         contoh_3_name.text = contoh_3_Content[nomor_content];
-        // contoh_1_image.GetComponent<Image>().sprite = contoh_1_image_content[nomor_content].sprite;
-        // contoh_2_image.GetComponent<Image>().sprite = contoh_2_image_content[nomor_content].sprite;
-        // contoh_3_image.GetComponent<Image>().sprite = contoh_3_image_content[nomor_content].sprite;
+        contoh_1_image.GetComponent<Image>().sprite = contoh_1_image_content[nomor_content];
+        contoh_2_image.GetComponent<Image>().sprite = contoh_2_image_content[nomor_content];
+        contoh_3_image.GetComponent<Image>().sprite = contoh_3_image_content[nomor_content];
 
         BG.GetComponent<Image>().sprite = Background[nomor_content];
         BadgeTitle.GetComponent<Image>().sprite = ImgBadge[nomor_content];
